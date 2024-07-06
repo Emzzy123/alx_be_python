@@ -25,6 +25,6 @@ def user_convert():
         else:
             print("Invalid unit. Please enter 'C' or 'F'.")
     except ValueError:
-        print("Invalid temperature. Please enter a valid number.")
+        print("Invalid temperature. Please enter a numeric value.")
 
 user_convert()
