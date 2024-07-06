@@ -1,19 +1,14 @@
 def perform_operation(num1, num2, operation):
     if operation == 'add':
-        result = num1 + num2
-        return result
+        return num1 + num2
     elif operation == 'subtract':
-        result = num1 - num2
-        return result
+        return num1 - num2
     elif operation == 'multiply':
-        result = num1 * num2
-        return result
+        return num1 * num2
     elif operation == 'divide':
         if num2 == 0:
-            print("Error: Can't divide by zero(0)")
+            return "Error: Can't divide by zero"
         else:
-            result = num1 - num2
-            return result
+            return num1 / num2
     else:
-        print("Error: Invalid operation.")
-
+        return "Error: Invalid operation."
