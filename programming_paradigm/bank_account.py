@@ -1,4 +1,6 @@
 class BankAccount:
+    """Display a bank account balance, deposit and withdrawal"""
+    
     def __init__(self, account_balance):
         self.account_balance = account_balance
 
